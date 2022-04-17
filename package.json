@@ -41,7 +41,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://shafin-saiyed.github.io/password-generator",
+  "homepage": "https://shafin-saiyed.github.io/password_generator",
   "devDependencies": {
     "jest-watch-typeahead": "^0.6.5"
   }
