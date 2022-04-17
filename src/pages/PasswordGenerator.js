@@ -11,7 +11,7 @@ function PasswordGenerator() {
     },[]);
     const generatePassword = () => {
         const randomPassword =
-          Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2);
+          Math.random().toString(36).slice(2);
     
         setPassword(randomPassword);
       };
@@ -26,7 +26,7 @@ function PasswordGenerator() {
     return (
         <div>
             <div className="background">
-                <h1 className="heading">Generate a secure password</h1>
+                <h1 className="heading">Generate a random password</h1>
                 <div className="wrapper">
                     <div className="password">
                         <span>{password}</span>

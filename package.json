@@ -44,5 +44,8 @@
   "homepage": "https://shafin-saiyed.github.io/password_generator",
   "devDependencies": {
     "jest-watch-typeahead": "^0.6.5"
+  },
+  "browser": {
+    "crypto": false
   }
 }
